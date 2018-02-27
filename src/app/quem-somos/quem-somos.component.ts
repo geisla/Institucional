@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QuemSomosComponent implements OnInit {
 
+  imagem = '/assets/images/img.rebel-alliance-790x494-300x188';
+
   constructor() { }
 
   ngOnInit() {

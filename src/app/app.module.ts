@@ -8,18 +8,20 @@ import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { NossaVisaoComponent } from './nossa-visao/nossa-visao.component';
 import { ContatoModule } from './contato/contato.module';
+import { NossaVisaoModule } from './nossa-visao/nossa-visao.module';
+import { QuemSomosModule } from './quem-somos/quem-somos.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    QuemSomosComponent,
-    NossaVisaoComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     RouterModule,
     ContatoModule,
+    NossaVisaoModule,
+    QuemSomosModule,
     RouterModule.forRoot([]),
   ],
   providers: [],
